@@ -106,7 +106,7 @@ h2{
 .accordion {
   background-color: #eee;
   color: #444;
-  cursor: pointer;
+  cursor: grab;
   padding: 18px;
   width: 100%;
   border: none;
@@ -135,9 +135,10 @@ h2{
 .panel {
   padding: 0 18px;
   background-color: white;
-  max-height: 0;
-  overflow: hidden;
+  max-height: 0vh;
+  overflow:hidden;
   transition: max-height 0.2s ease-out;
+  padding-bottom: 400px;
 }
 .navbar {
   overflow: hidden;
