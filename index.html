@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#ingredients">selections</a>
+                        <a class="nav-link" href="#popular">popular picks</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#order">order</a>
@@ -62,7 +62,7 @@
     </div>
     <div class="container-fluid"><br><br><br>
         <h2> Make an order now!</h2>
-            <button class="accordion">POPULAR PICKS</button>
+            <button class="accordion" id="popular">POPULAR PICKS</button>
         <div class="panel">
             <div id="pizzaGenerator" class="row">
                 <div class="col-md-12">
@@ -76,7 +76,7 @@
                         <img src="img/pizza.png" class="img-responsive">
                       </div>
                       <div class="col-md-6">
-                        <h4>The Udacity Special</h4>
+                        <h4>The Barista Special</h4>
                         <ul>
                           <li>Turkey</li>
                           <li>Tofu</li>
@@ -197,7 +197,7 @@
               </div> 
         </div>
         <button class="accordion" id="order">ORDER NOW!</button>
-        <div class="panel">
+        <div class="panel"><br><br>
                     <form class="form-group" id="custom-pizza">
                         <div id="form-content">
                           <div class="row container">
@@ -283,7 +283,6 @@
                           <button type="btn" class="btn btn-danger" id="checkout-btn">Checkout</button>
                           <h3><span id="delivery-option"></span></h3>
                       </div>
-            </div>
             <div id="displayTotal"></div>
         </div>
     <div class="container-fluid">

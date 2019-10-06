@@ -37,7 +37,7 @@ Order.prototype.sideCost = function () {
 Order.prototype.finalCost = function () {
   var cartTotalPrice = 0;
   for (var arrayElement = 0; arrayElement < totalPriceArray.length; arrayElement ++) {
-    cartTotalPrice += totalPriceArray[arrayElement]; //////////////////////IMPORTANT!!! How to add contents of an array together
+    cartTotalPrice += totalPriceArray[arrayElement];
   }
   return cartTotalPrice;
 }
