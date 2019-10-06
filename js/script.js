@@ -23,7 +23,7 @@ Order.prototype.pizzaCost = function () {
   } else if (this.cheese === "light cheese") {
     this.pizzaPrice += 500;
   } else if (this.cheese === "extra cheese") {
-    this.pizzaPrice += 1500;
+    this.pizzaPrice += 800;
   }
   this.pizzaPrice += this.sauce;
   this.pizzaPrice += this.veggie1;
@@ -63,6 +63,7 @@ $(document).ready(function(event) {
     $("#landing-content").hide();
     $("#delivery-option").text("DELIVER TO: " + newAddress.deliveryAddress);
     $("#delivery-option").alert("DELIVER TO: " + newAddress.deliveryAddress);
+    alert("DELIVER TO: " + newAddress.deliveryAddress);
   });
   $("form#custom-pizza").submit(function(event) {
     event.preventDefault();
@@ -86,7 +87,9 @@ $(document).ready(function(event) {
   });
 ///Checkout Btn
   $("#checkout-btn").click(function() {
+    alert("DELIVER TO: " + newAddress.deliveryAddress);
     location.reload();
+   
   });
 });
   
