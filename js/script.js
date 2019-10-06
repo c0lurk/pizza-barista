@@ -1,3 +1,5 @@
+
+  
 // listen for button clicks
 document.getElementById("placeOrder").addEventListener("click", placeOrder);
 
@@ -66,3 +68,5 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 }
+
+
