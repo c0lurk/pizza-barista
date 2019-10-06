@@ -271,15 +271,46 @@
                               </select>
                             </div>
                           </div>
+<br>
+                              <button type="submit" class="btn btn-danger" id="submit-custom-pizza">Place Order</button>
+                          <h3>delivery details(optional)</h3>
+                          <div class="row">
+                              <div class="col-xs-6">
+                                <label for="first-name">First Name</label><input required type="text" class="form-control address-spacing">
+                              </div>
+                              <div class="col-xs-6">
+                                <label for="last-name">Last Name</label><input required type="text" class="form-control address-spacing">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-xs-6">
+                                <label for="street-address">Address</label><input required type="text" class="form-control" id="street-add">
+                              </div>
+                              <div class="col-xs-3">
+                                <label for="city-name">City</label><input required type="text" class="form-control" id="city-add">
+                              </div>
+                              <div class="col-xs-1">
+                                <label for="state-name">Estate</label>
+                                <select required class="form-control delivery-address" id="state-select">
+                                  <option></option>
+                                  <option>Kilimani</option>
+                                  <option>Kleleshwa</option>
+                                  <option>Westlands</option>
+                                </select>
+                              </div>
+                              <div class="col-xs-2">
+                                <label for="zipcode">Zipcode</label><input required type="text" class="form-control" id="zip-add">
+                              </div>
+                            </div>
+                            <button type="submit" class="btn btn-danger" id="order-proceed-btn">Submit</button>
                         </div>
-                        <button type="submit" class="btn btn-danger" id="submit-custom-pizza">Place Order</button>
                       </form>
                       <div class="col-xs-4" id="price-content">
                           <h2>Total: Ksh <span id="final-cost"></span></h2>
                           <div id="order-details">
                             <p><a id="pizza-details-dropdown">Order details</a></p>
                             <ul id="pizza-details"></ul>
-                          </div>
+                          </div><br><BR><BR>
                           <button type="btn" class="btn btn-danger" id="checkout-btn">Checkout</button>
                           <h3><span id="delivery-option"></span></h3>
                       </div>

@@ -181,4 +181,7 @@ h2{
   height: 50px;
   margin-right: 3%;
 }
-
+h3{
+  text-align: center;
+  text-transform: uppercase;
+}
