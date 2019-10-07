@@ -54,4 +54,4 @@ Git Hub Webpage: https://nook7466.github.io/pizza-barista/
 
 *This software is licensed under the GPL license.*
 
-Copyright (c) 2016 Shradha Pulla
+Copyright (c) 2016 Zach Njuguna
